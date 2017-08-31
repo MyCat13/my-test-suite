@@ -1,0 +1,18 @@
+sudo /etc/init.d/apache2 restart // restart apache2
+
+/etc/php/7.0/apache2                         // folder where apache is
+
+msql -u root -p                                        //  asking for msql password and the starts msql-server
+
+msql                                                            // ranning msql-server to work with
+
+
+sudo dpkg --configure -a
+
+sudo apt remove --purge wine*                                 // removing wine completly
+
+
+sudo apt-get remove wine1.8 winetricks                        // installing wine1.8 
+
+
+

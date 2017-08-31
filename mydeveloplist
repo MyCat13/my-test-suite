@@ -1,0 +1,18 @@
+.clearfix:after {
+  visibility: hidden;
+  display: block;                      CSS CLEAR FIX;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack */
+
+
+                         C++
+g++ example.cpp -o example -lglut -lGL -lGLU -lGLEW
+COMPALING A OPENGL APP
